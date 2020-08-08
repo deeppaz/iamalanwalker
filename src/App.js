@@ -6,7 +6,6 @@ import { OrbitControls } from 'drei'
 import Model from './components/Model/Model'
 import Loading from './components/Loadings/Loading'
 
-
 export default function App() {
   return (
     <>
@@ -31,7 +30,7 @@ export default function App() {
         />
         <fog attach="fog" args={['#cc7b32', 16, 20]} />
         <Suspense fallback={null}>
-          <Model url="/scene-draco.gltf" />
+          <Model url="/scene.gltf" />
         </Suspense>
         {/* control of rotate */}
         <OrbitControls
