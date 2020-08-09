@@ -30,7 +30,7 @@ export default function App() {
         />
         <fog attach="fog" args={['#cc7b32', 16, 20]} />
         <Suspense fallback={null}>
-          <Model url="/scene.gltf" />
+          <Model url="scene-draco2.gltf" />
         </Suspense>
         {/* control of rotate */}
         <OrbitControls
