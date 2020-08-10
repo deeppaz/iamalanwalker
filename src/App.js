@@ -15,7 +15,7 @@ export default function App() {
         <br />
         <span>ALAN WALKER</span>
       </h1>
-      <Canvas shadowMap camera={{ position: [0, 0, 15] }}>
+      <Canvas shadowMap camera={{ position: [-10, -10, 15] }}>
         <ambientLight intensity={0.75} />
         <pointLight intensity={1} position={[-10, -25, -10]} />
         <spotLight
@@ -30,7 +30,7 @@ export default function App() {
         />
         <fog attach="fog" args={['#cc7b32', 16, 20]} />
         <Suspense fallback={null}>
-          <Model url="scene-draco2.gltf" />
+          <Model url="scene-draco.gltf" />
         </Suspense>
         {/* control of rotate */}
         <OrbitControls
