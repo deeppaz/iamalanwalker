@@ -28,7 +28,7 @@ export default function App() {
           shadow-mapSize-height={1024}
           shadow-bias={-0.0001}
         />
-        <fog attach="fog" args={['#cc7b32', 16, 20]} />
+        {/* <fog attach="fog" args={['#cc7b32', 16, 20]} /> */}
         <Suspense fallback={null}>
           <Model url="scene-draco.gltf" />
         </Suspense>
