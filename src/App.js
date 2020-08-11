@@ -11,9 +11,9 @@ export default function App() {
     <>
       <div className="bg" />
       <h1>
-        I AM
+        A
         <br />
-        <span>ALAN WALKER</span>
+        <span>W</span>
       </h1>
       <Canvas shadowMap camera={{ position: [-10, -10, 15] }}>
         <pointLight position={[0, 60, -100]} intensity={10} />
