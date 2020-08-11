@@ -10,11 +10,11 @@ export default function App() {
   return (
     <>
       <div className="bg" />
-      <h1>
+      {/* <h1>
         A
         <br />
         <span>W</span>
-      </h1>
+      </h1> */}
       <Canvas shadowMap camera={{ position: [-10, -10, 15] }}>
         <pointLight position={[0, 60, -100]} intensity={10} />
         <pointLight position={[-50, 0, -50]} intensity={2} />
@@ -30,7 +30,7 @@ export default function App() {
           shadow-mapSize-height={1024}
           shadow-bias={-0.0001}
         />
-        <fog attach="fog" args={['#cc7b32', 16, 20]} />
+        <fog attach="fog" args={['#3ff0f5', 13.6, 23]} />
         <Suspense fallback={null}>
           <Model url="scene-draco.gltf" />
         </Suspense>
