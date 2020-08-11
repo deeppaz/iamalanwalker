@@ -10,12 +10,12 @@ canvas {
 }
 
 body {
-  background: #0b1c24;
+  background: #34526f;
 }
 
 .bg {
   position: absolute;
-  background: radial-gradient(at 50% 100%, #7af5f1 2%, #3ff0f5 6%, #0b1c24 70%, #0b1c24 50%);
+  background: radial-gradient(at 50% 100%, #7af5f1 2%, #3ff0f5 6%, #34526f 70%, #34526f 50%);
 }
 
 .loading {

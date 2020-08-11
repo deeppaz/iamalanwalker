@@ -48,7 +48,7 @@ export default function App() {
       </Canvas>
       <div className="layer" />
       <Loading />
-      <a href="https://github.com/deeppaz/iamalanwalker" className="top-left" children="Github" />
+      <a href="https://github.com/deeppaz/iamalanwalker" className="top-left" children="Author/SRC" />
       {/* <a href="https://twitter.com/0xca0a" className="top-right" children="Twitter" />
       <a href="https://github.com/drcmda/react-three-fiber" className="bottom-left" children="+ react-three-fiber" /> */}
     </>
