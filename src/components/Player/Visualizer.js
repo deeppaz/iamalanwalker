@@ -3,6 +3,7 @@ import { Canvas, useThree } from 'react-three-fiber'
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import DanceFloor from './DanceFloor';
 
+
 function nearestPow2(aSize) {
     return Math.pow(2, Math.ceil(Math.log(aSize) / Math.log(2)));
 }

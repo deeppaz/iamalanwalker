@@ -6,14 +6,12 @@ const Dancer = ({ index }) => {
 
     const height = useContext(soundContext)[index] / 100;
     return (
-        <mesh position={[/* ...position*/ 0, 0, Math.max(0, height)]}>
-            {/* <boxBufferGeometry attach="geometry" args={[size[0] - .1, size[1] - .1, 1]} /> */}
+        <mesh position={[ 0, 0, Math.max(0, height)]}>
             <ringBufferGeometry attach="geometry" args={[index * .3 + 1.3, index * .3 + 1.2, 6]} />
             <meshToonMaterial
                 attach="material"
                 color={`hsl(${height * 128},100%, 50%)`}
-                //transparent
-                //opacity={height <= 0.51 ? 1 : (height <= 0.75 ? .98 : (height <= 1 ? .96 : (height <= 1.5 ? .94 : .92)))}
+                transparent
                 side={DoubleSide}
             />
         </mesh>

@@ -35,7 +35,7 @@ const DanceFloor = ({ num, analyser, player, play, ...rest }) => {
             {
                 !player.current.playing &&
                 <mesh onClick={play}>
-                    <ringBufferGeometry attach="geometry" args={[1, 0.3, 3]} />
+                    <ringBufferGeometry attach="geometry" args={[1, 0.1, 3]} />
                     <meshLambertMaterial attach="material" color={`hsl(${Math.max(...soundArray)}, 100%, 50%)`} side={DoubleSide} />
                 </mesh>
             }
