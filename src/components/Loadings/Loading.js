@@ -1,6 +1,7 @@
 import * as THREE from 'three'
 import React, { useState, useEffect } from 'react'
 import { useTransition, a } from 'react-spring'
+import walker from '../../img/loading.gif'
 import './Loading.css'
 
 function Loading() {
@@ -25,6 +26,7 @@ function Loading() {
         <a.div className="loading" key={key} style={{ opacity }}>
           <div className="loading-bar-container">
             <a.div className="loading-bar" style={{ width }} />
+            <img src={walker} className="loading-img" alt="loading-img" />
           </div>
         </a.div>
       ),
