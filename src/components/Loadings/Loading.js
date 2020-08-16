@@ -9,7 +9,7 @@ function Loading() {
   const [width, setWidth] = useState(0)
 
   useEffect(() => {
-    THREE.DefaultLoadingManager.onLoad = () => set(true)
+    THREE.DefaultLoadingManager.onLoad = () => set(false)
     THREE.DefaultLoadingManager.onProgress = (url, itemsLoaded, itemsTotal) =>
       setWidth((itemsLoaded / itemsTotal) * 200)
   }, [])
