@@ -146,8 +146,18 @@ a {
 }
 
 a.top-left {
-  top: 60px;
-  left: 60px;
+  top: 50px;
+  left: 50px;
+  font-size: 20px;
+  transform: skew(5deg, 10deg);
+  pointer-events: all;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+  a.top-left {
+    font-size: 1.5em;
+  }
 }
 
 a.top-right {
