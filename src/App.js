@@ -17,7 +17,6 @@ export default function App() {
         <br />
         <span>W</span>
       </h1> */}
-      <PlayButton/>
 
       <Canvas shadowMap camera={{ position: [-10, -10, 15] }}>
         <pointLight position={[0, 60, -100]} intensity={10} />
@@ -50,10 +49,12 @@ export default function App() {
           minPolarAngle={Math.PI / 2}
         />
       </Canvas>
-      {/* <Visualizer /> */}
-      
+      {/* <Visualizer /> */}    
       <div className="layer" />
+      <PlayButton/>
+
       <Loading />
+
       <a href="https://github.com/deeppaz/iamalanwalker" className="top-left" children="Author/SRC" />
       {/* <a href="https://twitter.com/0xca0a" className="top-right" children="Twitter" />
       <a href="https://github.com/drcmda/react-three-fiber" className="bottom-left" children="+ react-three-fiber" /> */}
