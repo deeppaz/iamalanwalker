@@ -7,7 +7,6 @@ import Model from './components/Model/Model'
 import Loading from './components/Loadings/Loading'
 import PlayButton from './components/Player/PlayButton'
 // import Visualizer from './components/Player/Visualizer';
-
 export default function App() {
   return (
     <>
@@ -48,11 +47,10 @@ export default function App() {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
+        <PlayButton />
       </Canvas>
       {/* <Visualizer /> */}    
       <div className="layer" />
-      <PlayButton/>
-
       <Loading />
 
       <a href="https://github.com/deeppaz/iamalanwalker" className="top-left" children="Author/SRC" />
