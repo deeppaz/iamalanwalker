@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import { OrbitControls } from 'drei'
 
 export default function PlayButton() {
-    let audio = new Audio("./Fearless.mp3")
+    let audio = new Audio("./alone.mp3")
     const start = () => {
         audio.play();
     }
