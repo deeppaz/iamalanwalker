@@ -21,7 +21,7 @@ export default function App() {
       <Canvas shadowMap camera={{ position: [-10, -10, 15] }}>
         <pointLight color="#3ff0f5" position={[0, 60, -100]} intensity={10} />
         <pointLight color="#34526f" position={[-50, 0, -50]} intensity={2} />
-        <ambientLight color="0x0000ff, 0x00ff00, 0.6" intensity={10} />
+        <ambientLight  intensity={5} />
         <pointLight color="#34526f" intensity={1} position={[-10, -25, -10]} />
         <spotLight
           castShadow
