@@ -14,7 +14,8 @@ export default function PlayButton() {
         <>
             {/* <pointLight position={[-4, -11, 1.9]} intensity={2} /> */}
             <group ref={ref}>
-                <pointLight color="red" intensity={1} position={[-4, -11, 1.9]}>
+                <pointLight transparent={true} opacity={0.5} intensity={1} position={[-4, -11, 1.9]}>
+                <pointLight color="#3ff0f5" position={[-10, 10, 10]} intensity={3} />
                     <mesh onClick={start} position={[5, 5, 5]}>
                         <boxBufferGeometry attach="geometry" args={[2.1, 0.9, 1]} />
                         <meshBasicMaterial attach="material" transparent={true} opacity={0.5} color="red" />

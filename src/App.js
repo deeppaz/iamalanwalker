@@ -19,10 +19,10 @@ export default function App() {
       </h1> */}
 
       <Canvas shadowMap camera={{ position: [-10, -10, 15] }}>
-        <pointLight position={[0, 60, -100]} intensity={10} />
-        <pointLight position={[-50, 0, -50]} intensity={2} />
-        <ambientLight intensity={5} />
-        <pointLight intensity={1} position={[-10, -25, -10]} />
+        <pointLight color="#3ff0f5" position={[0, 60, -100]} intensity={10} />
+        <pointLight color="#34526f" position={[-50, 0, -50]} intensity={2} />
+        <ambientLight color="0x0000ff, 0x00ff00, 0.6" intensity={10} />
+        <pointLight color="#34526f" intensity={1} position={[-10, -25, -10]} />
         <spotLight
           castShadow
           intensity={5}
@@ -32,6 +32,7 @@ export default function App() {
           shadow-mapSize-width={1024}
           shadow-mapSize-height={1024}
           shadow-bias={-0.0001}
+          color="#34526f"
         />
         <fog attach="fog" args={['#3ff0f5', 13.6, 23]} />
         <Suspense fallback={null}>
