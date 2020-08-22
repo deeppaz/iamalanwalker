@@ -12,11 +12,11 @@ export default function PlayButton() {
     const ref = useRef()
     return (
         <>
-            <pointLight position={[0, 10, -10]} intensity={2} />
+            {/* <pointLight position={[-4, -11, 1.9]} intensity={2} /> */}
             <group ref={ref}>
-                <pointLight color="red" intensity={3} position={[1, 8, 5]}>
-                    <mesh onClick={start}  position={[0, 0, 0]}>
-                        <sphereBufferGeometry attach="geometry" args={[0.5, 32, 32]} />
+                <pointLight color="red" intensity={1} position={[-4, -11, 1.9]}>
+                    <mesh onClick={start} position={[5, 5, 5]}>
+                        <sphereBufferGeometry attach="geometry" color="yellow" args={[0.5, 2, 1]} />
                         <meshBasicMaterial attach="material" color="red" />
                         <OrbitControls
                             autoRotate
