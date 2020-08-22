@@ -16,8 +16,8 @@ export default function PlayButton() {
             <group ref={ref}>
                 <pointLight color="red" intensity={1} position={[-4, -11, 1.9]}>
                     <mesh onClick={start} position={[5, 5, 5]}>
-                        <sphereBufferGeometry attach="geometry" color="yellow" args={[0.5, 2, 1]} />
-                        <meshBasicMaterial attach="material" color="red" />
+                        <boxBufferGeometry attach="geometry" args={[2.1, 0.9, 1]} />
+                        <meshBasicMaterial attach="material" transparent={true} opacity={0.5} color="red" />
                         <OrbitControls
                             autoRotate
                             enablePan={false}
