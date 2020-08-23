@@ -6,18 +6,19 @@
 </p>
 
 <p align="center">
-  <img src="https://serenes.space/logo.png" width="150" />
+  <img src="https://iamalanwalker.com/logo.png" width="150" />
 </p>
-<h1 align="center">Serenes</h1>
-<p align="center">serenes player for listen to music while working or similar</p>
+<h1 align="center">IAmAlanWalker</h1>
+<p align="center">walkers join</p>
 
 <p align="center">
-  <img src="https://i.imgur.com/nxhNoSl.jpg" width="100%">
+  <img src="https://i.imgur.com/lHsXJIn.jpg" width="100%">
+  <img src="https://i.imgur.com/ERNcUhx.jpg" width="100%">
 </p>
 
 # if you want to see
 
-Enjoy [serenes.space](https://serenes.space/)
+Enjoy [iamalanwalker.com](https://iamalanwalker.com/)
 
 
 # how to clone project
@@ -25,23 +26,18 @@ Enjoy [serenes.space](https://serenes.space/)
 
 - Download by ZIP
 
-you can download by [ZIP](https://github.com/deeppaz/serenes/archive/master.zip)
+you can download by [ZIP](https://github.com/deeppaz/iamalanwalker/archive/master.zip)
 
 - or clone this repo
 
 ```
-git clone https://github.com/deeppaz/serenes.git
+git clone https://github.com/deeppaz/iamalanwalker.git
 ```
 ```
-cd serenes
+cd iamalanwalker
 npm install
 npm start
 ```
-
-# pixelarts
-
-You can find all background gifs here. feel free pushing the backgrounds you want to see on the player [gifs](https://github.com/deeppaz/serenes/blob/master/src/data/BGif.json)
-
 <br>
 <br>
 <br>
@@ -51,7 +47,7 @@ You can find all background gifs here. feel free pushing the backgrounds you wan
   Open Source
 </h2>
 
-<p align="center">Serenes <a href="https://github.com/deeppaz/serenes/blob/master/LICENSE">is MIT licensed</a></p>
+<p align="center">Serenes <a href="https://github.com/deeppaz/iamalanwalker/blob/master/LICENSE">is MIT licensed</a></p>
 <p align="center">
-  <img src="https://serenes.space/logo.png" width="35" />
+  <img src="https://iamalanwalker.com/logo.png" width="35" />
 </p>
