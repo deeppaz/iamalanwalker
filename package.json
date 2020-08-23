@@ -12,7 +12,6 @@
     "react-scripts": "3.4.1",
     "react-spring": "^8.0.27",
     "react-three-fiber": "^4.2.19",
-    "sass": "^1.26.10",
     "three": "^0.119.1"
   },
   "scripts": {
