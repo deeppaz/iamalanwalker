@@ -44,7 +44,7 @@ export default function App() {
           enablePan={false}
           enableZoom={false}
           enableDamping
-          dampingFactor={0.5}
+          dampingFactor={0}
           rotateSpeed={1}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
