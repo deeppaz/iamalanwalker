@@ -55,7 +55,7 @@ export default function App() {
       <div className="layer" />
       <Loading />
 
-      {/* <a href="https://github.com/deeppaz/iamalanwalker" className="top-left" children="Author/SRC" /> */}
+      <a href="https://github.com/deeppaz/iamalanwalker" className="top-left" children="Author/SRC" />
     </>
   )
 }

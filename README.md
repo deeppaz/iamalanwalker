@@ -47,7 +47,7 @@ npm start
   Open Source
 </h2>
 
-<p align="center">Serenes <a href="https://github.com/deeppaz/iamalanwalker/blob/master/LICENSE">is MIT licensed</a></p>
+<p align="center">IAmAlanWalker <a href="https://github.com/deeppaz/iamalanwalker/blob/master/LICENSE">is MIT licensed</a></p>
 <p align="center">
   <img src="https://iamalanwalker.com/logo.png" width="35" />
 </p>
