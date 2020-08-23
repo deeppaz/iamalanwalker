@@ -6,7 +6,7 @@ import { OrbitControls } from 'drei'
 import Model from './components/Model/Model'
 import Loading from './components/Loadings/Loading'
 import PlayButton from './components/Player/PlayButton'
-// import Visualizer from './components/Player/Visualizer';
+
 
 export default function App() {
   return (
@@ -21,7 +21,7 @@ export default function App() {
       <Canvas shadowMap camera={{ position: [-10, -10, 15] }}>
         <pointLight color="#3ff0f5" position={[0, 60, -100]} intensity={10} />
         <pointLight color="#34526f" position={[-50, 0, -50]} intensity={2} />
-        <ambientLight  intensity={5} />
+        <ambientLight intensity={5} />
         <pointLight color="#34526f" intensity={1} position={[-10, -25, -10]} />
         <spotLight
           castShadow
@@ -51,14 +51,11 @@ export default function App() {
         />
 
         <PlayButton />
-      </Canvas>
-      {/* <Visualizer /> */}    
+      </Canvas> 
       <div className="layer" />
       <Loading />
 
       <a href="https://github.com/deeppaz/iamalanwalker" className="top-left" children="Author/SRC" />
-      {/* <a href="https://twitter.com/0xca0a" className="top-right" children="Twitter" />
-      <a href="https://github.com/drcmda/react-three-fiber" className="bottom-left" children="+ react-three-fiber" /> */}
     </>
   )
 }
