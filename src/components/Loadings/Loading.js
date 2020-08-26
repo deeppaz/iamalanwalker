@@ -1,7 +1,7 @@
 import * as THREE from 'three'
 import React, { useState, useEffect } from 'react'
 import { useTransition, a } from 'react-spring'
-import walker from '../../img/loading.gif'
+import walker from '../../img/loading.webp'
 import './Loading.css'
 
 function Loading() {
