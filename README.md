@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="https://iamalanwalker.com/logo.png" width="150" />
+  <img src="https://iamalanwalker.vercel.app/logo.png" width="150" />
 </p>
 <h1 align="center">IAmAlanWalker</h1>
 <p align="center">walkers join</p>
@@ -18,7 +18,7 @@
 
 # if you want to see
 
-Enjoy [iamalanwalker.com](https://iamalanwalker.com/)
+Enjoy [iamalanwalker.com](https://iamalanwalker.vercel.app/)
 
 
 # how to clone project
@@ -49,5 +49,5 @@ npm start
 
 <p align="center">IAmAlanWalker <a href="https://github.com/deeppaz/iamalanwalker/blob/master/LICENSE">is MIT licensed</a></p>
 <p align="center">
-  <img src="https://iamalanwalker.com/logo.png" width="35" />
+  <img src="https://iamalanwalker.vercel.app/logo.png" width="35" />
 </p>
