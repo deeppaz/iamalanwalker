@@ -51,3 +51,5 @@ npm start
 <p align="center">
   <img src="https://iamalanwalker.vercel.app/logo.png" width="35" />
 </p>
+
+# this repo will not be continued. you can fork and use, but please give credit.
